@@ -26,7 +26,14 @@ a {
 .nav {
 	background-color: #89786a;
 }
-
+.nav li {
+	display:inline;
+	padding: 15px;
+}
+#name {
+	font-size: 16pt;
+	padding-right: 200px;
+}
 /*	darker grey color text
 	color: #494948*/
 
