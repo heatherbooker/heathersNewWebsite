@@ -64,6 +64,7 @@ h1 {
 }
 .nav {
 	background-color: #89786a;
+/*	position: fixed;*/
 }
 .nav li {
 	display:inline;
@@ -71,11 +72,24 @@ h1 {
 }
 #name {
 	font-size: 24pt;
-	padding-right: 200px;
+	padding-right: 300px;
 }
 /*	darker grey color text
 	color: #494948*/
-
+.contact {
+	height:5em;
+	padding-right: 10px;
+	padding-left: 10px;
+	position: relative;
+	left:490px;
+	right:490px;
+}
+.contactIcon {
+	display: inline-block;
+}
+#content {
+	background-color: #c9a887;
+}
 #footer {
 	background-color: #89786a;
 	height:40px;
