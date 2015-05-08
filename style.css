@@ -10,6 +10,10 @@ h5 {
 	font-family:'Oswald',sans-serif;
 	font-weight: 700;
 }
+h2,
+h3 {
+	text-align: center;
+}
 .white {
 	color: white;
 }
@@ -54,16 +58,19 @@ h1 {
 }*/
 #everything {
 	position:absolute;
-	right:440px;
+	right:430px;
 	top:230px;
+	text-transform: uppercase;
 }
 #inHer {
 	position: absolute;
 	right:175px;
 	top:270px;
+	text-transform: uppercase;
 }
 .nav {
 	background-color: #89786a;
+	height:5em;
 /*	position: fixed;*/
 }
 .nav li {
@@ -76,8 +83,16 @@ h1 {
 }
 /*	darker grey color text
 	color: #494948*/
+#mission, 
+#about,
+#accomp {
+	margin-bottom: 80px;
+}
+#connect {
+	padding-bottom: 80px;
+}
 .contact {
-	height:5em;
+	height:3.5em;
 	padding-right: 10px;
 	padding-left: 10px;
 	position: relative;
@@ -89,6 +104,10 @@ h1 {
 }
 #content {
 	background-color: #c9a887;
+	padding-top: 15px;
+}
+#accomplishments li {
+	display: inline;
 }
 #footer {
 	background-color: #89786a;
