@@ -24,14 +24,10 @@ a {
 	font-size: 18pt;
 }
 .jumbotron {
-	background: -webkit-linear-gradient(left, #473f38, #b4a9a0); /* For Safari 5.1 to 6.0 */
-  	background: -o-linear-gradient(right, #473f38, #b4a9a0); /* For Opera 11.1 to 12.0 */
-  	background: -moz-linear-gradient(right, #473f38, #b4a9a0); /* For Firefox 3.6 to 15 */
-  	background: linear-gradient(to right, #473f38, #b4a9a0); /* Standard syntax */
 	background: url(http://i.imgur.com/FZ0Ugg0.jpg) no-repeat center;
 	background-size: contain;
 	height:100%;
-	border-top: 22px;
+	border-top: 40px;
 	border-left: 122px;
 	border-right: 122px;
 	border-bottom: 22px;
@@ -39,6 +35,8 @@ a {
 	border-style: solid;
 	margin: 0px;
 	padding:0px;
+	position: relative;
+	top:60px;
 } 
 h1 {
 	position: relative;
@@ -50,36 +48,43 @@ h1 {
 .hlearns {
 	float:right;
 }
-/*.jumbotron p {
+.jumbotron p {
 	float:right;
 	clear: both;
 	position: relative;
-	top:40px;
-}*/
+}
 #everything {
 	position:absolute;
-	right:430px;
+	right:300px;
 	top:230px;
 	text-transform: uppercase;
 }
 #inHer {
 	position: absolute;
-	right:175px;
+	right:70px;
 	top:270px;
 	text-transform: uppercase;
 }
 .nav {
 	background-color: #89786a;
 	height:5em;
-/*	position: fixed;*/
+	position: fixed;
+	z-index: 9999;
+	top:0px;
+	left:0px;
+	right: 0px;
+	width:100%;
+	text-align: center;
 }
 .nav li {
 	display:inline;
 	padding: 15px;
+	position: relative;
+	top: 20px;
 }
 #name {
 	font-size: 24pt;
-	padding-right: 300px;
+	padding-right: 280px;
 }
 /*	darker grey color text
 	color: #494948*/
@@ -89,15 +94,15 @@ h1 {
 	margin-bottom: 80px;
 }
 #connect {
-	padding-bottom: 80px;
+	padding-bottom: 45px;
 }
 .contact {
 	height:3.5em;
 	padding-right: 10px;
 	padding-left: 10px;
 	position: relative;
-	left:490px;
-	right:490px;
+	left: 580px;
+	padding-top: 20px;
 }
 .contactIcon {
 	display: inline-block;
@@ -105,6 +110,14 @@ h1 {
 #content {
 	background-color: #c9a887;
 	padding-top: 15px;
+	margin-top: 60px;
+}
+p {
+	font-size: 16pt;
+	position: relative;
+}
+#accomplishments {
+	font-size: 16pt;
 }
 #accomplishments li {
 	display: inline;
@@ -112,7 +125,7 @@ h1 {
 #footer {
 	background-color: #89786a;
 	height:40px;
-	padding-top:10px;
+	padding-top:20px;
 	padding-bottom:10px;
 	text-align: center;
 }
