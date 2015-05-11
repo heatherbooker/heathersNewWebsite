@@ -139,7 +139,8 @@ h1 {
 	display: inline;
 	padding: 1em 3em 1em 3em;
 	position: relative;
-	left: 23em;
+	left: 18em;
+	top: 1.5em;
 }
 p {
 	font-size: 16pt;
@@ -149,7 +150,7 @@ p {
 	font-size: 16pt;
 }
 #accomplishments li {
-	display: inline;
+	/*display: inline-block;*/
 }
 #footer {
 	background-color: #89786a;
