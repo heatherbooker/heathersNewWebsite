@@ -11,4 +11,18 @@ $(document).ready(function() {
             window.location.hash = target - 100;
         });
     });
+
+    $('#fizzbuzz').click(function() {
+        $("#fizz").show();
+    });
+    $('#website').click(function() {
+        $("#web").show();
+    });
+    $('#graph').click(function() {
+        $("#hoursApp").show();
+    });
+    $('#clothing').click(function() {
+        $("#clothes").show();
+    });
+
 });
